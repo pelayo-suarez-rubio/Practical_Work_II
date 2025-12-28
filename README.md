@@ -9,3 +9,5 @@ This is the repository for the Practical Work II.
 - Added images for content section.
 - Added content and menu. 
 - Added styles.css file in css folder.
+- Added styles.css in the index file as link.
+- Added about.html page and modify links and styles of the header menu. 
