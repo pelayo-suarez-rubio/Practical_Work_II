@@ -15,7 +15,7 @@ This is the repository for the Practical Work II.
 
 - Added the contact, degree, fce, net, topic html to the public directory.
 - Decided to change the styles.css, therefore I created the styles2.css and used it for all the webpages. Since it does not say that there can be only one .css in the css folder, then I left the styles.css. So I could check back and forth the mistakes, and changes I had to apply. 
-- In the about.html I added on the right down corner my only social media account link. Since it was ask to be done. 
+- In the about.html I added on the right down corner my only social media account link. Since it was ask to be done -- If you click it, you get inside the social media being able to see the account.  
 - Added the .gitignore, the template from GitHub called VisualStudio. 
 - 
 
