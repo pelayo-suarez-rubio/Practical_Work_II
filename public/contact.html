@@ -33,18 +33,23 @@
 
     <main class="container">
         <div class="content about-section">
-            <h1>Contact me!:</h1>
-            <div class="menu-item">
+            <h1>Contact Me!</h1>
+            <p>Feel free to reach out — I'd love to hear from you!</p>
+
+           <div style="display: flex; justify-content: center; gap: 40px; margin: 30px 0; flex-wrap: wrap;">
+                <div class="menu-item">
                     <img src="../images/telephone-white.png" alt="Phone Icon" class="menu-icon">
-                    <p>+34 01234567890(demo)</p>
+                    <p>+34 01234567890 (demo)</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/envelope-white.png" alt="Email Icon" class="menu-icon">
+                    <p>pelayo(demo)@gmail.com</p>
+                </div>
             </div>
-            <div class="menu-item">
-                <img src="../images/envelope-white.png" alt="Email Icon" class="menu-icon">
-                <p>pelayo(demo)@gmail.com</p>
-            </div>
-            <h2>Fill in the contact form, I will be glad to help!</h2>
+
+            <h2>Or send me a message:</h2>
             <form action="/my-handling-form-page" method="post">
-                <ul>
+                <ul class="contact-form">
                     <li>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user_name" />
@@ -55,10 +60,10 @@
                     </li>
                     <li>
                         <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <textarea id="msg" name="user_message" rows="5"></textarea>
                     </li>
                     <li>
-                        <button type="submit">Send your message</button>
+                        <button type="submit">Send your Message</button>
                     </li>
                 </ul>
             </form>
