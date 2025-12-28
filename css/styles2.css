@@ -217,3 +217,16 @@ main {
 .contact-form button:hover {
     background-color: #2c2c4e;
 }
+
+/* Fundamentals of Computer Science - Link style (Helped by other sources)*/
+.subject-link {
+    color: #1a1a2e;          
+    text-decoration: none;    
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.subject-link:hover {
+    color: #0066cc;           
+    text-decoration: underline;
+}
