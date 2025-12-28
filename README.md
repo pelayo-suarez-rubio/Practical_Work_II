@@ -19,8 +19,11 @@ This is the repository for the Practical Work II.
 - 4º I move on with about, topic, net, and contact html. -- Helped by other sources (school, HTML forums) -- Means that I used any sources to support those critical lines of HTML to make sure the funcionality was right. 
        + About:  added on the right down corner my only social media account link. Since it was ask to be done -- If you click it, you get inside the social media being able to see the account. I also added a couple of pictures about me, as well as my CV.
        + Topic: Added a couple of pictures, and a couple of links for references and other information. The information mentioned comes from my introduction to cybersecutiry class.
-       + Net: added the links of other college peers websites. 
-       + Contact: I used the UNIT 4 - Page 27 example. However I change the styles2.css to make sure it would look clean. I needed help from other sources. 
+       + Net: added the links of other college peers websites. I also added pictures that I did not have before. 
+       + Contact: I used the UNIT 4 - Page 27 example. However I change the styles2.css to make sure it would look clean. I needed help from other sources. I added new pictures to the images directory. 
+- 5º Degree and FCE, I used the table information from UNIT 4 - Page 15. For the FCE I collected the information from Canvas, which I had organized since the beginning of the year, and I just found the way to create the repetetive proccess for the evaluation tables. The information of the Degree came from the UFV web Plan de estudios - Ingeniería Informática, diploma en Ciberseguridad. 
+    + I used a different way to recreate the evaluation tables -- Helped by other sources --
 
 ### Errors:
-- When I added the .gitignore from GitHub, I forgot to do the git pull, therefore it gave me an error when doing the git push. 
+- When I added the .gitignore from GitHub, I forgot to do the git pull, therefore it gave me an error when doing the git push.
+- The biggest mistake: thinking that the task was due on the 30th. I will make sure next time I am more into canvas even if its a holiday. As a result, I barely had time to use a personalized CSS, or cute details for the webpage.  
