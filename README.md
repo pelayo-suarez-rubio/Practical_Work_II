@@ -18,3 +18,6 @@ This is the repository for the Practical Work II.
 - In the about.html I added on the right down corner my only social media account link. Since it was ask to be done. 
 - Added the .gitignore, the template from GitHub called VisualStudio. 
 - 
+
+### Errors:
+- When I added the .gitignore from GitHub, I forgot to do the git pull, therefore it gave me an error when doing the git push. 
