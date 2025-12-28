@@ -4,12 +4,12 @@ This is the repository for the Practical Work II.
 
 ## Actions (influenced by activity III, IV)
 
-- Added the basic structure to the html file. 
-- Added footer and header.
-- Added images for content section + I added my CV document, because it does not say that the image folder was only for images. Therefore, I used it to save the CV document. 
-- Added content and menu. 
-- Added styles.css file in css folder, index file as link. I used the styles.css from activity III (I will change it after)
-- Added about.html page and modify links and styles of the header menu. 
+- 1º Added the basic structure to the html file. 
+- 2º Added footer and header.
+- 3º Added images for content section + I added my CV document, because it does not say that the image folder was only for images. Therefore, I used it to save the CV document. 
+- 4º Added content and menu. -- I put at least three essentials items at the bottom: college name, phone number, and job email. However, the email, and phone number are demostratios. Since I would leave them there if this actually was for me applying to a job, or giving someone the necessary information to contact me. 
+- 5º Added styles.css file in css folder, index file as link. I used the styles.css from activity III (I will change it after)
+- 6º Added about.html page and modify links and styles of the header menu. 
 
 ### Other actions:
 
