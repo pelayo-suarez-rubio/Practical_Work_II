@@ -8,3 +8,4 @@ This is the repository for the Practical Work II.
 - Added footer and header.
 - Added images for content section.
 - Added content and menu. 
+- Added styles.css file in css folder.
