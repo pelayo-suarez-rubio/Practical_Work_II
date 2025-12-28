@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Permite que el footer quede abajo si el contenido es corto */
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1; /* Hace que el main ocupe el espacio disponible */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav a.active {
+    background-color: red;
+    color: white;
+}
+
+main {
+    flex: 1; /* Permite que el contenido crezca y empuje el menú y footer hacia abajo */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Quitamos la altura fija y el centrado vertical forzado */
+.content {
+    /* height: 800px; → eliminado */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; → eliminado */
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 40px 20px; /* Más espacio superior para separar del header */
+    flex: 1;
+}
+
+.about-section {
+    padding: 30px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.about-section p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.about-section h1, .about-section h2 {
+    color: #333;
+}
+
+.about-section ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.about-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces dentro del contenido (incluido el del CV) */
+.about-section a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-section a:hover {
+    color: #004499;
+}
+
+/* Imágenes de perfil */
+.profile-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Responsive en móviles */
+}
+
+.profile-images img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Menú inferior */
+.menu {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el menú hacia abajo si hay espacio */
+}
+
+.menu-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap; /* Responsive */
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+/* Enlaces en el menú (como el de X/Twitter) */
+.menu-item a {
+    display: block;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-section a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
