@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Permite que el footer quede abajo si el contenido es corto */
+    min-height: 100vh; /* Permite que el footer quede abajo si el contenido es corto (Helped by other sources)*/
 }
 
 .container {
@@ -60,13 +60,13 @@ main {
     flex-direction: column;
 }
 
-/* Quitamos la altura fija y el centrado vertical forzado */
+/* Quitamos la altura fija y el centrado vertical forzado (Helped by other sources)*/
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f5f5f5;
-    padding: 40px 20px; /* Más espacio superior para separar del header */
+    padding: 40px 20px; /* Más espacio superior para separar del header (Helped by other sources)*/
     flex: 1;
 }
 
@@ -97,7 +97,7 @@ main {
     margin-bottom: 8px;
 }
 
-/* Enlaces dentro del contenido (incluido el del CV) */
+/* Enlaces dentro del contenido (incluido el del CV) (Helped by other sources)*/
 .about-section a {
     color: #0066cc;
     font-weight: bold;
@@ -129,7 +129,7 @@ main {
     color: white;
     padding: 30px 0;
     text-align: center;
-    margin-top: auto; /* Empuja el menú hacia abajo si hay espacio */
+    margin-top: auto; /* Empuja el menú hacia abajo si hay espacio (Helped by other sources) */
 }
 
 .menu-content {
@@ -151,7 +151,7 @@ main {
     font-size: 14px;
 }
 
-/* Enlaces en el menú  (X/Twitter) */
+/* Enlaces en el menú  (X/Twitter) (Helped by other sources) */
 .menu-item a {
     display: block;
 }
@@ -177,7 +177,7 @@ main {
     text-decoration: underline;
 }
 
-/* Conctact Form Styles */
+/* Conctact Form Styles (Helped by other sources)*/
 .contact-form {
     list-style: none;
     padding: 0;

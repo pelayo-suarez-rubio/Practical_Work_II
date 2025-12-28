@@ -20,7 +20,7 @@ This is the repository for the Practical Work II.
        + About:  added on the right down corner my only social media account link. Since it was ask to be done -- If you click it, you get inside the social media being able to see the account. I also added a couple of pictures about me, as well as my CV.
        + Topic: Added a couple of pictures, and a couple of links for references and other information. The information mentioned comes from my introduction to cybersecutiry class.
        + Net: added the links of other college peers websites. 
-       + Contact: 
+       + Contact: I used the UNIT 4 - Page 27 example. However I change the styles2.css to make sure it would look clean. I needed help from other sources. 
 
 ### Errors:
 - When I added the .gitignore from GitHub, I forgot to do the git pull, therefore it gave me an error when doing the git push. 
